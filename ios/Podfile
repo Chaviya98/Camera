@@ -32,6 +32,8 @@ target 'AwesomeProject' do
 
   pod 'react-native-camera', :path => '../node_modules/react-native-camera'
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'AwesomeProjectTests' do
     inherit! :search_paths
     # Pods for testing
